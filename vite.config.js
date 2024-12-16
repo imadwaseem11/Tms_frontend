@@ -9,7 +9,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       "/api": {
-        target: "http://localhost:8800",
+        target: "https://tms-backend-tyfd.onrender.com",
         changeOrigin: true,
       },
     },
